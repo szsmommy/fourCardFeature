@@ -23,27 +23,27 @@ body{
     margin:auto;
 }
 /*small*/
-@media(min-width 576px){
+@media(min-width: 576px){
     .container{
         width: 540px;
     }
 }
-@media(min-width 760px){
+@media(min-width: 760px){
     .container{
         width: 720px;
     }
 }
-@media(min-width 992px){
+@media(min-width: 992px){
     .container{
         width: 960px;
     }
 }
-@media(min-width 1200px){
+@media(min-width: 1200px){
     .container{
         width: 1180px;
     }
 }
-@media(min-width 1440px){
+@media(min-width: 1440px){
     .container{
         width: 1320px;
     }
@@ -87,7 +87,7 @@ header p{
     margin: 0 auto 25px auto;
     border-top: 2px solid transparent;
     border-radius: 10px;
-    bax-shadow: 0px 5px 10px 0px rgba(216, 226, 238, .75);
+    box-shadow: 0px 5px 10px 0px rgba(216, 226, 238, .75);
 }
 .cards .card:nth-last-of-type(1){
     border-color: var(--cyanColor);
